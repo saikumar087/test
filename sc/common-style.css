@@ -1,0 +1,160 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f7f9fc, #e0e6ed);
+    color: #495057;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.navbar {
+    background-color: #607c97;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fdf4f4;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f0ede8;
+}
+
+/* Navbar Button Styling */
+.navbar .btn-primary {
+    background-color: #ff9800; /* Button background color distinct from navbar */
+    color: #ffffff; /* Button text color */
+    border: none; /* No border */
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .btn-primary:hover {
+    background-color: #e68a00; /* Slightly darker shade on hover */
+    color: #ffffff; /* Text color on hover */
+}
+
+.navbar .btn-primary:active {
+    background-color: #cc7a00; /* Even darker shade when clicked */
+    transform: scale(0.98); /* Slightly shrink the button when clicked */
+}
+
+.navbar .btn-primary:focus {
+    outline: none; /* Remove outline when focused */
+    box-shadow: 0 0 5px #ff9800; /* Add a glow effect */
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* Border color of the button */
+    background-color: #607c97; /* Background color of the button */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* White bars */
+    width: 25px; /* Adjust size if necessary */
+    height: 25px;
+}
+
+
+
+/* Main Content */
+h2, h3 {
+    color: #1d3557;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555555;
+}
+
+/* Section Background Colors */
+#overview, #about, #contact {
+    background-color: #ffffff;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Card Styles */
+.card {
+    background-color: #f0bbbb;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 25px;
+    text-align: center;
+    background: linear-gradient(135deg, #f0f4f8, #e2ebf0);
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #1d3557;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: #f6f7ea;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #f0e5d4;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #e0e6ed;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #cdf0d3;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
